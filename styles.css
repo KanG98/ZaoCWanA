@@ -1,0 +1,69 @@
+html {
+  background-color: #FFFAF0;
+  font-family: 'Proxima Nova';
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; /* Ensure items wrap to the next line */
+}
+
+li {
+  flex: 1 1 100%; /* Default to 100% width */
+
+}
+
+#menu {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#my-drinks-title {
+    font-size: 20px;
+    font-weight: 900;
+
+}
+#strong-drinks {
+    font-size: 20px;
+}
+
+
+.drink-item {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px; /* Add margin between each drink item */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+@media (min-width: 768px) {
+  li {
+    flex: 1 1 200px; /* Ensure each item has a minimum width of 200px */
+  }
+}
+
+.drink-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.drink-title {
+
+
+}
+
+.drink-description {
+
+}
